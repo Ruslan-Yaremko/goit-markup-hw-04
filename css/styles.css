@@ -110,11 +110,6 @@ img{
     bottom: -1px;
 }
 
-.blu {
-    color: #404bbf;
-    z-index: 2;
-}
-
 .header-menu-list li{
     margin-right: 0;
 }
@@ -322,6 +317,7 @@ img{
 .soc_team{
     width: 40px;
     height: 40px;
+    transition-property: background-color;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -508,6 +504,8 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-property: background-color;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc:hover,
@@ -531,9 +529,4 @@ img{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
-}
-
-.soc:hover,
-.soc:focus{
-    background-color: #31d0aa;
 }
